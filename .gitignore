@@ -1,0 +1,33 @@
+# Data files — never commit raw experimental data
+data/*.txt
+data/*.csv
+data/*.aio
+data/*.ldc
+data/*.json
+*.txt
+*.csv
+*.aio
+
+# Generated figures
+figures/
+*.png
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

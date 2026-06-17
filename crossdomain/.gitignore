@@ -1,0 +1,8 @@
+# generated artifacts (regenerable by running the scripts)
+output/
+__pycache__/
+*.pyc
+
+# large exported Nyquist renders (regenerable: export_nyquist_plots.py)
+/Nyquist_Battery.png
+/Nyquist_PSC.png

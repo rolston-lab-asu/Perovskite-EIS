@@ -19,10 +19,25 @@ Perovskite-EIS/
 │   ├── eis_fundamentals.md   # EIS theory, PSC spectral zoo, ionic migration
 │   ├── measurement_protocol.md  # PAIOS settings, sign convention, calibration
 │   └── doe_recommendations.md   # DOE design for 85C degradation study
+├── crossdomain/              # AI4X 2026 cross-domain study (see below)
 ├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
+
+---
+
+## Cross-Domain Study — AI4X Accelerate 2026
+
+The [`crossdomain/`](crossdomain/) folder holds the analysis behind the AI4X
+Accelerate 2026 poster *"Transferable Impedance-Grounded Learning for Interfacial
+Degradation Across Energy Systems"* (Purushothama, Casareto, Rolston). One EIS
+workflow — equivalent-circuit fitting **and** distribution of relaxation times (DRT) —
+is applied to both a **perovskite solar cell** and a **Li-ion battery**. Both dominant
+aging relaxations fall in the same 50 ms–2 s timescale band, and a single arc-resistance
+descriptor predicts measured degradation in each (perovskite *P*max retention |r| = 0.91,
+battery state of health |r| = 0.88). See [`crossdomain/README.md`](crossdomain/README.md)
+for details; the battery DRT pipeline lives in the companion `LIB-EIS-ML` repository.
 
 ---
 
